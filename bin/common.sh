@@ -25,7 +25,7 @@ install_play()
 {
   VER_TO_INSTALL=$1
   #PLAY_URL="https://s3.amazonaws.com/heroku-jvm-langpack-play/play-heroku-$VER_TO_INSTALL.tar.gz"
-  PLAY_URL="https://dl.dropbox.com/u/7699153/play-1.2.x-1.2.5RC4-55-g7d6b980.tar.gz"
+  PLAY_URL="http://docracy-largeprofilepics.s3.amazonaws.com/play-1.2.x-1.2.5RC4-55-g7d6b980.tar.gz"
   PLAY_TAR_FILE="play-heroku.tar.gz"
   echo "-----> Installing Play! $VER_TO_INSTALL....."
   curl --silent --max-time 150 --location $PLAY_URL -o $PLAY_TAR_FILE
